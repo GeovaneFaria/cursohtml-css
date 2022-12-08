@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+            body{
+                font-family:  Arial, Helvetica, sans-serif;
+            }
+            table{
+                width: 500px;
+                border-collapse: collapse;
+                position: relative;
+            }
+            td, th{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            caption {
+                font-size: 1.5em;
+                font-weight: bold;
+                padding: 10px;
+                background-color: rgb(179, 218, 252);
+            }
+            thead,tfoot{
+                background-color: grey;
+                color: aliceblue;
+            }
+            thead > tr > th {
+                position: sticky;
+                top: -1px;
+                background-color: aqua;
+            }
+            tbody > tr:nth-child(2n){
+                background-color: lightgray;
+
+            }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+    TABE
+    CAPTION
+THEAD-> TR,TD,TH
+TBODY-> TR,TD,TH
+TFOOT-> TR,TD,TH-->
+
+<table>
+        <caption>Populaçao das unidades Federativas</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td>São Paulo</td>
+    <td>45.919.049</td>
+</tr>
+     <td>Minas Gerais</td>
+     <td>21,264.791</td>
+
+     <tr>
+        <td>Rio de Janeiro</td>
+        <td>17.264.943</td>
+     </tr>
+   <tr>
+    <td>Porto Alegre</td>
+    <td>1.409.351</td>
+   </tr>
+   <td>Recife</td>
+   <td>1.653.461</td>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>0000</strong></td>
+        </tr>
+    </tfoot>
+</table>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus adipisci, minus laboriosam unde, eum provident inventore vero dolorem iste vel, ullam aspernatur velit magni incidunt neque libero autem fugit rerum!</p>
+</body>
+</html>
